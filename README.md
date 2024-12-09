@@ -1,14 +1,14 @@
-# Air Quality Analysis Project: Wanshouxigong Station
+# Air Quality Analysis: Wanshouxigong Station
 
-## Live Dashboard
+## 🚀 [Live Dashboard](https://odihn-airquality.streamlit.app/)
 
-## Project Overview
+## Overview
 
-This project, submitted for the "Learn Data Analysis with Python" course from Dicoding, focuses on analyzing air quality data, particularly PM2.5 levels, from the Wanshouxigong station. The objective is to uncover trends, seasonal variations, and the impact of different weather conditions on air quality.
+This project analyzes air quality data from the Wanshouxigong station, focusing on PM2.5 levels. It explores trends, seasonal variations, and the influence of weather conditions on air quality.
 
-## Course Submission
+### Course Submission
 
-This analysis serves as a course submission for "Learn Data Analysis with Python" offered by Dicoding. It demonstrates the application of data analysis techniques and visualization skills learned in the course.
+This analysis is part of the **"Learn Data Analysis with Python"** course on **Dicoding**, showcasing the application of data analysis techniques learned in the course.
 
 ## Table of Contents
 
@@ -19,94 +19,72 @@ This analysis serves as a course submission for "Learn Data Analysis with Python
 - [How to Run the Dashboard](#how-to-run-the-dashboard)
 - [About Me](#about-me)
 
+---
+
 ## Introduction
 
-The goal of this project is to analyze air quality data, specifically PM2.5 pollutant levels, and understand their relationship with various environmental factors. The analysis includes identifying trends, seasonal patterns, and correlations with weather conditions.
+This project aims to analyze PM2.5 levels and their relationship with weather conditions, uncovering seasonal patterns and trends to better understand air quality.
 
 ## Data Source
 
-The dataset used in this project includes air quality measurements from the Wanshouxigong station, with a focus on PM2.5 levels and other related environmental data.
+The dataset consists of air quality measurements, specifically PM2.5 levels, from the Wanshouxigong station, along with related environmental data.
 
 ## Libraries Used
 
-- Streamlit
-- Pandas
-- Matplotlib
-- Seaborn
-- NumPy
-- SciPy
-- Statsmodels
+- **Streamlit**: For building the interactive dashboard
+- **Pandas**: Data manipulation and analysis
+- **Matplotlib & Seaborn**: Data visualization
+- **NumPy**: Numerical operations
+- **Statsmodels**: Time series analysis
 
 ## Key Insights
 
-- Seasonal variation in PM2.5 levels with higher concentrations in colder months.
-- Correlation between PM2.5 levels and weather conditions like temperature and humidity.
-- Trends and patterns revealed through time series analysis.
+- Higher PM2.5 concentrations are observed in colder months.
+- Temperature and humidity show strong correlations with PM2.5 levels.
+- Seasonal trends and patterns in air quality are revealed through time series analysis.
+
+---
 
 ## How to Run the Dashboard
-
-To run the Air Quality Analysis Dashboard, follow these steps:
 
 ### Setup Environment
 
 1. **Create and Activate a Python Environment**:
 
-   - If using Conda (ensure [Conda](https://docs.conda.io/en/latest/) is installed):
+   - **With Conda**:
+
      ```
      conda create --name airquality-ds python=3.9
      conda activate airquality-ds
      ```
-   - If using venv (standard Python environment tool):
+
+   - **With venv**:
      ```
      python -m venv airquality-ds
-     source airquality-ds/bin/activate  # On Windows use `airquality-ds\Scripts\activate`
+     source airquality-ds/bin/activate  # For Windows: `airquality-ds\Scriptsctivate`
      ```
 
 2. **Install Required Packages**:
+   ```
+   pip install -r requirements.txt
+   ```
 
-   - The following packages are necessary for running the analysis and the dashboard:
+### Run the App
 
-     ```
-     pip install pandas numpy scipy matplotlib seaborn streamlit statsmodels
-     ```
-
-     or you can do
-
-     ```
-     pip install -r requirements.txt
-     ```
-
-### Run the Streamlit App
-
-1. **Navigate to the Project Directory** where `dashboard.py` is located.
-
-2. **Run the Streamlit App**:
+1. Navigate to the project directory (where `dashboard.py` is located).
+2. Run the Streamlit app:
    ```
    streamlit run dashboard.py
    ```
-
-### Additional Files
-
-- The dataset used for this analysis is included in the project repository.
-- A detailed Python notebook (`airquality-odihn-dicoding.ipynb`) containing the data analysis and visualizations is also provided.
-
----
-
-### P.S.
-
-Since Dicoding recommended creating the good and tidy folder structures, as `dashboard.py` in `dashboard` folder, then the deployment for Streamlit App affected.
-
-That was why I put the `requirements.txt` in the `dashboard` folder as well.
 
 ---
 
 ## About Me
 
 - **Name**: Odih Nurzaman
-- **Email Address**: odihnurzaman@gmail.com
+- **Email**: [odihnurzaman@gmail.com](mailto:odihnurzaman@gmail.com)
 - **Dicoding ID**: [odihnz](https://www.dicoding.com/users/odihnz/)
 
----
+Find my notebook on Kaggle: [Air Quality Analysis - Kaggle](https://www.kaggle.com/odhnurzaman/air-quality)
 
-Find also the Python Notebook in here
-[Kaggle - odih_nurzaman - Air Quality](https://www.kaggle.com/odihnurzaman/airquality-odihn-dicoding)
+---
